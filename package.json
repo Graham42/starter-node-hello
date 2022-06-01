@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "scripts": {
+    "prettier": "prettier --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx,html,vue,css,less,scss,graphql,yaml,yml,json,json5,md,mdx}\"",
+    "check:format": "npm run prettier -- --check",
+    "fix:format": "npm run prettier -- --write"
+  },
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
