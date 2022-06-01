@@ -1,0 +1,3 @@
+# This is a generated file that isn't helpful to see in diffs
+# to force seeing the diff use: git diff --text
+package-lock.json -diff

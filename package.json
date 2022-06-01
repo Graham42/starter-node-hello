@@ -3,9 +3,13 @@
   "scripts": {
     "prettier": "prettier --ignore-path .gitignore \"**/*.{js,jsx,ts,tsx,html,vue,css,less,scss,graphql,yaml,yml,json,json5,md,mdx}\"",
     "check:format": "npm run prettier -- --check",
-    "fix:format": "npm run prettier -- --write"
+    "fix:format": "npm run prettier -- --write",
+    "test": "jest"
   },
   "devDependencies": {
+    "@types/jest": "^27.5.1",
+    "@types/node": "^16.11.38",
+    "jest": "^28.1.0",
     "prettier": "^2.6.2"
   }
 }
